@@ -21,7 +21,7 @@ if [ $OUT -ne 0 ];then
 fi
 
 #build
-docker build -t azsoftalanzheng/rpi-gogs-0.11.34-2 .
+docker build -t azsoftalanzheng/rpi-gogs-0.11.34 .
 OUT=$?
 if [ $OUT -ne 0 ];then
    echo "build failed"
